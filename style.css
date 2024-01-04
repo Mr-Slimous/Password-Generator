@@ -1,0 +1,54 @@
+body{
+    height: 100vh;
+    background-color: #ffff;
+    /* display: flex;    */
+    font-family: 'Times New Roman', Times, serif;
+}
+.container{
+    margin: 50px auto;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 3px rgba(198,193, 193, 0.1);
+    max-width: 400px;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.container:hover{
+    box-shadow: 0 0 3px rgba(93, 89, 89, 0.1);
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+.mainSearch input{
+    width: 60%;
+    height: 34px;
+    padding-left: 10px;
+    font-size:20px ;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.mainSearch button{
+    width: 25%;
+    height: 42px;
+    font-size: 19px;
+    background-color: aquamarine;
+    cursor: pointer;
+    border-radius: 20px;
+}
+.mainSearch button:hover{
+    background-color: rgb(69, 245, 186);
+}
+#length{
+    width: 50px;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding-left: 10px;
+}
+.forCheckout label{
+    display: block;
+    margin: 10px 0 4px 0;
+    font-size: 20px;
+    font-weight: bold;
+
+}
